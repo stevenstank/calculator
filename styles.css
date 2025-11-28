@@ -3,6 +3,7 @@ body{
   padding:0;
   background:#111;
   display:flex;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   height:100vh;
@@ -69,4 +70,8 @@ body{
 
 .zero{
   width:48%; 
+}
+
+.footer{
+  font-size: 15px;
 }
