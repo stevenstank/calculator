@@ -33,6 +33,7 @@ body{
   display:flex;
   flex-wrap:wrap;
   gap:10px;
+  align-items: flex-start;
 }
 
 .btn{
@@ -44,7 +45,11 @@ body{
   border-radius:6px;
   cursor:pointer;
   width:22%; 
+  height: 64px;
   text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover{
@@ -66,6 +71,8 @@ body{
   color:black;
   font-weight:bold;
   width:22%;
+  height: 138px;
+  
 }
 
 .zero{
@@ -75,3 +82,4 @@ body{
 .footer{
   font-size: 15px;
 }
+
