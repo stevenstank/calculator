@@ -8,6 +8,8 @@ body {
   align-items: center;
   height: 100vh;
   color: white;
+  overflow: hidden;
+  padding-right: 12px;
 }
 
 .calculator {
